@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    font-family: roboto, arial;
+}
+
+/* Navbar */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: orange; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.Airbnb_logo {
+    width: 100px;
+}
+
+.Airbnb_Logo_symbol {
+    width: 31px;
+    display: none;
+}
+
+/* Main Image */
+
+.main-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Search */
+
+.search {
+    margin-top: 20px;
+}
+
+.search-para {
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.search-location,
+.search-in-out {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.search-location label {
+    font-size: 13px;
+}
+
+.search-location-input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.search-in-out {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.check-in {
+    padding: 10px;
+}
+
+.divider {
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+
+.search-in-out-width {
+    width: 50%;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    background-color: #FF385C;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+/* About Us */
+
+.aboutus-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.aboutus-info {
+    /* background-color: greenyellow; */
+    margin-top: 20px;
+    width: 30%;
+}
+
+.aboutus-image {
+    width: 30px;
+}
+
+.aboutus-info h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Homes */
+
+.homes-house-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 80px;
+    /* flex-wrap: wrap; */
+}
+
+.homes-house {
+    /* background-color: greenyellow; */
+    width: 40%;
+}
+
+.homes-house p {
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.homes-house-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Pool */
+
+.pool-container {
+    display: flex;
+    /* overflow-x: auto; */
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.housewithpool {
+    /* background-color: greenyellow; */
+    width: 23%;
+    /* min-width: 400px; */
+}
+
+.housewithpool-image {
+    width: 100%;
+    /* height: 150px; */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.housewithpool-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.housewithpool-price {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.pool-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+/* Specification */
+
+.Specification-container {
+    margin-bottom: 80px;
+}
+
+.Specification-para {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Specification-unit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Specification-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.spec-icon {
+    width: 30px;
+}
+
+/* Footer */
+
+.Footers {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.Footer-icons {
+    /* background-color: greenyellow; */
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    width: 18px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Quires */
+
+/* Desktop */
+@media (min-width: 800px) {
+    body {
+        /* background-color: rgb(83, 190, 207); */
+        padding: 40px;
+    }
+
+    .main-image-container {
+        justify-content: right;
+        margin-right: 40px;
+    }
+
+    .main-image {
+        width: 70%;
+        /* height: 450px; */
+        object-fit: cover;
+        position: relative;
+    }
+
+    .search {
+        position: absolute;
+        top: 22%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 40px;
+        box-shadow: 4px 4px 10px gray;
+    }
+
+    .Specification-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Specification-unit {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .aboutus-container {
+        margin-top: 40px;
+    }
+
+}
+
+/* Mobile & Tablet */
+@media (max-width: 800px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        /* background-color: greenyellow; */
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .Airbnb_logo {
+        display: none;
+    }
+
+    .Airbnb_Logo_symbol {
+        display: block;
+    }
+
+    .aboutus-container {
+        flex-direction: column;
+    }
+
+    .aboutus-info {
+        /* background-color: greenyellow; */
+        width: 100%;
+    }
+
+    .aboutus-info p {
+        font-size: 18px;
+    }
+
+    .homes-house-container {
+        flex-direction: column;
+    }
+
+    .homes-house {
+        /* background-color: greenyellow; */
+        width: 100%;
+    }
+
+    .homes-house-image {
+        height: 500px;
+    }
+
+    .homes-house h4,
+    p {
+        font-size: 15px;
+    }
+
+    .homes-heading {
+        font-size: 27px;
+    }
+
+    .pool-container {
+        overflow-x: auto;
+    }
+
+    .housewithpool {
+        /* background-color: greenyellow; */
+        min-width: 400px;
+    }
+
+    .housewithpool-image {
+        height: 350px;
+    }
+
+    .pool-heading {
+        font-size: 26px;
+    }
+
+    .pool-para {
+        padding-top: 5px;
+    }
+
+}
