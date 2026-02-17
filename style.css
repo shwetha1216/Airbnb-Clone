@@ -243,8 +243,8 @@ body {
     border: 1px solid gray;
     font-weight: bold;
     cursor: pointer;
-    /* color: black;
-    background-color: rgb(244, 244, 244); */
+    color: black;
+    background-color: rgb(244, 244, 244);
 }
 
 .spec-icon {
