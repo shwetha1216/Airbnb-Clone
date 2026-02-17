@@ -330,10 +330,10 @@ body {
         flex-wrap: nowrap;
     }
 
-    .Specification-button {
+    /* .Specification-button {
         color: black;
         background-color: rgb(244, 244, 244);
-    }
+    } */
 
     .aboutus-container {
         margin-top: 40px;
@@ -417,10 +417,10 @@ body {
         padding-top: 5px;
     }
 
-    .Specification-button {
+    /* .Specification-button {
         color: black;
         background-color: rgb(244, 244, 244);
-    }
+    } */
 
 
 }
