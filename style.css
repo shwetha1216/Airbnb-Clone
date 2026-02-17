@@ -243,8 +243,8 @@ body {
     border: 1px solid gray;
     font-weight: bold;
     cursor: pointer;
-    color: black;
-    background-color: rgb(244, 244, 244);
+    /* color: black;
+    background-color: rgb(244, 244, 244); */
 }
 
 .spec-icon {
@@ -330,6 +330,11 @@ body {
         flex-wrap: nowrap;
     }
 
+    .Specification-button {
+        color: black;
+        background-color: rgb(244, 244, 244);
+    }
+
     .aboutus-container {
         margin-top: 40px;
     }
@@ -411,5 +416,11 @@ body {
     .pool-para {
         padding-top: 5px;
     }
+
+    .Specification-button {
+        color: black;
+        background-color: rgb(244, 244, 244);
+    }
+
 
 }
